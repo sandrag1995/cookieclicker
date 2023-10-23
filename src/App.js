@@ -2,7 +2,7 @@
 
 import './App.css';
 import {useState} from "react"
-function task3() {
+function App() {
     const [num, setNum] = useState(0);
 
     const UPGRADE_COSTS = {
@@ -84,4 +84,4 @@ function task3() {
         </div>
     );
 }
-export default task3;
+export default App;
